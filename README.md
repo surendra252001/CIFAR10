@@ -71,12 +71,26 @@ Final Model Test Accuracy: **84.79%**
 
 ## 🚀 How to Run
 
-1. Install dependencies:
+### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
+### 2️⃣ Run the training pipeline
 
-2. Open `CIFAR10.ipynb` in Jupyter Notebook or VS Code.
+```bash
+python train.py
+```
 
-3. Run all cells.
+### 3️⃣ Project Structure
+The training pipeline is implemented in train.py, with the following modules:
+
+
+- `model.py` – CNN architecture
+- `dataset.py` – Data loading and transformations
+- `utils.py` – Helper functions (e.g., accuracy calculation)
+
+
+### 4️⃣ Experiments & Visualization
+
+The notebook`CIFAR10.ipynb`zzcontains experimentation, visualization, and analysis such as the training curves and confusion matrix.
