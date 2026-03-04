@@ -61,7 +61,7 @@ Final Model Test Accuracy: **84.79%**
 
 ## 🔍 Confusion Matrix
 
-![Confusion Matrix](cifar10_training_loss_curve.png)
+![Confusion Matrix](cifar10_Confusion_Matrix.png)
 
 ## 📈 Training Curve
 
